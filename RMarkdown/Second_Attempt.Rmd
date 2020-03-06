@@ -255,3 +255,5 @@ The web-created model showed considerable improvement from the smaller network. 
 ## H2O Conclusion
 Again, the neural network showed the most promise with this task when compared with the other models used in this iteration of the project. However, it was necessary to use the web portal to expand the neural network and capitalize on the power of hidden layers. 
 I still feel that the lack of samples did have a negative impact on the overall performance. 
+
+Jump to Third Attempt: https://github.com/ckornafel/Ciphertext-Project/blob/master/Third_Attempt_and_Conclusion.html
