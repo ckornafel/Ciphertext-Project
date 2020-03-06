@@ -20,6 +20,14 @@ This idea has been around since the release of one of the first public cryptosys
 ## Project Overview: 
 As inspired by the advancements in developing a resource-efficient FHE scheme by utilizing machine learning and its ability to recognize patterns, this project will explore the use of machine learning techniques as applied to ciphertext cryptography to identify its ability to “unwind” the encryption pattern. In addition, this project will personally provide experience in text processing in both the Python and R programming environments. As a result of using multiple platforms (R and Python) as well as the computational time required to execute many of the actions, some code will not executed in this environment. Actual code can be found in other files included in this Github site. 
 
+The project will consist of four stages (links to those pieces of the project are below): 
+
+Data Exploration and Prep - below
+First Attempt: 
+Second Attempt: 
+Third Attempt: 
+
+
 ## Project Hypothesis:
 Current machine learning methods are capable of sophisticated pattern recognition (e.g. facial, handwriting, image, etc.) and can achieve a high degree of success in its predictions. This ability to recognize similar patterns in a given set of training data (e.g. images, product descriptions) could be utilized in a text-only environment. By identifying reoccurring textual “patterns” within encrypted text blocks and comparing them with known plain text examples, the machine learning model should produce adequate prediction results to match plain text sentences with their encrypted ciphertext equivalents. 
 
@@ -27,14 +35,14 @@ Caveat: Since cipher schemes are designed to resist decryption, I am not expecti
 
 The complete code for this project can be located in the git repository as well as via links for each stage. 
 
-Data Prep (Rfile) : https://github.com/ckornafel/cyphertext/blob/master/Ciphertext/Data/Prep.R
+Data Prep (Rfile) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/Ciphertext_Data_Prep.R
 
-First Attempt (Python) : https://github.com/ckornafel/cyphertext/blob/master/Cyphertext_machine_learning.py
+First Attempt (Python) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/Cyphertext_machine_learning.py
 
-Second Attempt (Python) : https://github.com/ckornafel/cyphertext/blob/master/CipherOneHotLetter.py
+Second Attempt (Python) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/CipherOneHotLetter.py
 
-Third Attempt (Python) : https://github.com/ckornafel/cyphertext/blob/master/Cipher text_translation.py
-Third Attempt (Rfile) : https://github.com/ckornafel/cyphertext/blob/master/H2OToken.R
+Third Attempt (Python) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/Ciphertext_translation.py
+Third Attempt (Rfile) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/H2OToken.R
 
 ## The Data: 
 The data sets that will be used are provided by Kaggle for the closed “Cipher Challenge III” competition. The challenge contained two data sets:  a plain text training set and a ciphertext testing set. The plain text set included 108,755 lines of Shakespeare’s plays. The ciphertext set consisted of 108,755 corresponding lines; however, each line was encrypted with a possible, four layers, of known cipher techniques. For this project, I will focus only on the single-layered ciphertext (level 1) with a stretch goal of attempting an additional layer if the models proved to be successful. 
