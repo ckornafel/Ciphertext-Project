@@ -23,9 +23,12 @@ As inspired by the advancements in developing a resource-efficient FHE scheme by
 The project will consist of four stages (links to those pieces of the project are below): 
 
 Data Exploration and Prep - below
-First Attempt: 
-Second Attempt: 
-Third Attempt: 
+
+First Attempt:
+
+Second Attempt: https://github.com/ckornafel/Ciphertext-Project/blob/master/Second_Attempt.html
+
+Third Attempt: https://github.com/ckornafel/Ciphertext-Project/blob/master/Third_Attempt_and_Conclusion.html
 
 
 ## Project Hypothesis:
@@ -42,6 +45,7 @@ First Attempt (Python) : https://github.com/ckornafel/Ciphertext-Project/blob/ma
 Second Attempt (Python) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/CipherOneHotLetter.py
 
 Third Attempt (Python) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/Ciphertext_translation.py
+
 Third Attempt (Rfile) : https://github.com/ckornafel/Ciphertext-Project/blob/master/Code/H2OToken.R
 
 ## The Data: 
@@ -51,7 +55,8 @@ These data sets were specifically chosen due to the Shakespearean plain text. Ho
 
 While the lines of Shakespeare text vary in length, the ciphertext contained alpha-numeric "padding" to increase each sentence/line length to the next 100 characters. This padding introduces a random element that I will need to account for. 
 
-The Cipher text Challenge III data can be found: https://github.com/ckornafel/cyphertext/tree/master/ciphertext-challenge-iii
+The Cipher text Challenge III data can be found: https://github.com/ckornafel/Ciphertext-Project/tree/master/Code
+
 
 ## Text Cleaning
 Typically, several text "cleaning" techniques would be applied to the text prior to exploring to focus attention only on key elements. Cleaning would include the removal of punctuation, stop words, and capitalization (among other processes). However, since each character (including capitals, punctuation, etc.) may represent a crucial pattern in the encrypted text (e.g. an "a" may be translated to a "!") no cleaning will be performed. Additionally, the removal of stop words (typically the most frequent) could reduce the size of potential patterns within the text data, complicating the training/prediction process. 
@@ -220,5 +225,7 @@ additional characters - having the largest spread of padding. The 700, 900, and 
  27, 60, and 72 (respectively) additional characters. I assume that the low number of these larger text blocks will compensate for the additional characters
 when predicting the plain text. 
 The above plot also indicates a large amount of outlying padding characters for the 100-char population. This could highlight a potential issue with the random-factor for the largest group and obscure predictive patterns. 
+
+#Jump to First Attempt Documentation: 
 
 
