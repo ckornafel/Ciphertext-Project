@@ -24,7 +24,7 @@ The project will consist of four stages (links to those pieces of the project ar
 
 Data Exploration and Prep - below
 
-First Attempt:
+First Attempt: https://github.com/ckornafel/Ciphertext-Project/blob/master/First_Attempt.html
 
 Second Attempt: https://github.com/ckornafel/Ciphertext-Project/blob/master/Second_Attempt.html
 
@@ -226,6 +226,6 @@ additional characters - having the largest spread of padding. The 700, 900, and 
 when predicting the plain text. 
 The above plot also indicates a large amount of outlying padding characters for the 100-char population. This could highlight a potential issue with the random-factor for the largest group and obscure predictive patterns. 
 
-#Jump to First Attempt Documentation: 
+Jump to First Attempt Documentation: https://github.com/ckornafel/Ciphertext-Project/blob/master/First_Attempt.html
 
 
