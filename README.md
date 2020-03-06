@@ -1,17 +1,6 @@
 # Ciphertext-Project
 MSDS692 Data Science Practicum I
 
----
-title: "Cipher Text Project"
-author: "Christopher Kornafel"
-date: "2/25/2020"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Securing Information 
 Keeping information private has been a part of human history since the beginnings of society and spans every type of communication. Encoded messages have been used by oppressed social groups to unite a community,  by warring states to enact covert soldier movements (Enigma), by sociopaths in an attempt to boast their activities (Zodiac), and by the modern public performing personal/business transactions online (Hash). However, as forms of communication evolved, so has the ability to “crack” these codes. Therefore, more advanced forms of encryption are necessary in order to find the balance of protection and usability. A solution to this dilemma could be found in the maturing abilities of machine learning. Machine learning algorithms are becoming better at grouping characteristics between similar products (Recommender Systems), recognizing different faces (Image Recognition), and even making decisions in response to the current environment (Self-driving Vehicles). These capabilities are being accomplished using the available computational and cost resources. As a result, machine learning may offer the key to creating methods to protect our personal information while allowing us to take advantage of the electronic age.  
 
